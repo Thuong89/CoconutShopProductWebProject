@@ -1,0 +1,60 @@
+<header id="header">
+  <img src="https://i.ndtvimg.com/i/2017-06/coconut-oil-pure-home-made_620x350_51498649683.jpg" alt="logo" id="header-img"> <h1> Coconut Shop</h1>
+    <nav id="nav-bar"> 
+      <a class="nav-link" href="#Price"> Price </a>
+      <a class="nav-link" href="#Description"> Description </a>
+      <a class="nav-link" href="#Usage"> Usage </a>
+    </nav>
+  </header>
+<div>
+  <h2> Whole Young Coconut </h2>
+  <img src="https://image.freepik.com/free-photo/coconut-ripe-tasty-isolated-white_103864-185.jpg" alt="cocosymbol" id="coconutwhole"> 
+
+  <ul id="Description"> 
+        <li> Whole young coconut is a freshly pick coconut from coconut trees grown in the sounthern part of Vietnam.</li>
+    <li>Color: green.</li>
+    <li>Gross weight: 0.5kg on average.</li>
+    <li> Taste sweet.</li>
+  </ul>
+  
+  <p id="Price"> Price: 2 EUR/unit </p>
+  <p id="Usage"> USAGE: open by cutting the bottom part of the whole coconut, through the hard shell of the fruit, until reaching the white coconut meat. Pour coconut water to a cup, serve cool or mix with ice. Waste of coconut can be used as fiber for gardening. Coconut white meat can be eaten right away, or save for making coconut oil. 
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/knz_qViqQ2U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="video"></iframe>
+  </p>
+  <form id="form" action="https://www.freecodecamp.com/email-submit" method="get">
+       <p id="request"> If you want to place big order, we can quote you special offer. Enter your email here:</p>
+     <label for "email">
+    <input type="email" placeholder="Enter your email" name="email" id="email">
+    </label>
+    <input type="submit" id="submit">
+  </form>
+  </div>
+  
+</html>
+
+<!--CSS FROM HERE-->
+
+<style>
+#header{display:flex; flex-direction: row; flex-wrap:wrap;}
+#header-img{margin: 20px;width:100px;height:100px; border: 2px solid brown; border-radius:100px;}
+h1{padding-top:40px;font-size: 30px; font-family: 'Krona One', sans-serif;}
+#nav-bar{display:flex; align-items:center;flex-grow:3;}
+nav{display:flex; flex-direction:row; justify-content:flex-end; position:fixed; right:100px;}
+.nav-link{margin-left:20px; margin-right:20px; text-decoration:none; font-size:20px;color:brown; font-family: 'Krona One', sans-serif;}
+
+div{width:60%;height:auto; margin: auto;}
+h2{text-align: center; color: brown;padding:50px;}
+#coconutwhole{width:100%;height:auto;margin:auto;}
+#Description{background-color:#066B54;color:white; padding:50px;font-size:20px;}
+#Price{background-color:#066B54;padding:50px; color:white; font-size:20px;}
+#Usage{background-color: #066B54; padding:50px; color: white; font-size:20px;}
+#video{width:100%;margin-top:50px;}
+
+form{margin-top:50px; padding-bottom:20px; background-color:#9DFFB0;}
+#request{padding-top:20px; font-size:20px;margin-left:20px;}
+#email{width:80%;height:auto; font-size:20px;margin-left:20px;}
+#submit{font-size:20px;}
+@media (max-width:500px)p{font-size:10px;}
+
+
+</style>
